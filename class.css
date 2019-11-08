@@ -1,0 +1,114 @@
+body {
+    background: #090B0A;
+    height: 2500px;
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    background: url("joker.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+video {
+    opacity: 20%;
+}
+
+.menu {
+    height: 60px;
+    width: 90%;
+    padding-left: 30px;
+    margin-left: 100px;
+}
+
+#justblack {
+    height: 70px;
+    width: 350px;
+    background: black;
+    position: absolute;
+    left: 150px;
+    top: 600px;
+    box-shadow: 0px 0px 150px 150px black;
+}
+
+h2 {
+    color: red;
+    font-size: 200px;
+    position: absolute;
+    text-shadow: 0px 0px 0px black;
+    font-family: 'Yeon Sung', cursive;
+    left: 50px;
+    top: 350px;
+}
+
+h2:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    padding-left: 80px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+ul li a:hover {
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+
+#para p {
+    text-align: justify;
+}
+
+#para {
+    height: 750px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+#firstChild, #lastChild {
+    border: 1px solid white;
+    padding: 30px;
+}
+
+.quote {
+    height: 300px;
+    width: 100%;
+    color: red;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;   
+    font-size: 180px; 
+    margin-bottom: 50px;
+    animation-name: happy;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes happy {
+    0% {font-size: 100px;}
+    50% {font-size: 180px;}
+    100% {font-size: 100px;}
+}
+
